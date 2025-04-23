@@ -14,26 +14,34 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="center"
-            android:text="Enter password"
+            android:text="Write value"
             android:textSize="16sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Please enter the connection password"
-            android:textSize="13sp" />
-
-        <EditText
-            android:id="@+id/et_password"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
-            android:focusable="true"
-            android:hint="The password should be 6-10 characters"
-            android:singleLine="true"
-            android:textColorHint="@color/grey_ebebeb"
-            android:textSize="13sp" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0x"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_payload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:text=""
+                android:digits="0123456789abcdefABCDEF"
+                android:singleLine="true"
+                android:textColorHint="@color/grey_ebebeb"
+                android:textSize="13sp" />
+        </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -45,7 +53,7 @@
             android:layout_height="40dp">
 
             <TextView
-                android:id="@+id/tv_password_cancel"
+                android:id="@+id/tv_cancel"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1.0"
@@ -60,14 +68,13 @@
                 android:background="@color/grey_ebebeb" />
 
             <TextView
-                android:id="@+id/tv_password_ensure"
+                android:id="@+id/tv_ensure"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:enabled="false"
                 android:gravity="center"
                 android:text="@string/confirm"
-                android:textColor="@drawable/selector_text_enable_color"
+                android:textColor="@color/blue_0188cc"
                 android:textSize="16sp" />
 
         </LinearLayout>

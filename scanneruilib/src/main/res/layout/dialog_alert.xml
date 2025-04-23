@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:padding="10dp"
                 android:text=""
-                android:textColor="@color/text_black_4d4d4d"
+                android:textColor="@color/black_333333"
                 android:textSize="16sp" />
 
             <View style="@style/divider_line" />
@@ -42,7 +42,7 @@
             android:minHeight="70dp"
             android:padding="10dp"
             android:text=""
-            android:textColor="@color/text_black_4d4d4d"
+            android:textColor="@color/black_333333"
             android:textSize="16sp" />
 
         <View style="@style/divider_line" />
@@ -59,7 +59,7 @@
                 android:layout_weight="1.0"
                 android:gravity="center"
                 android:text="@string/cancel"
-                android:textColor="@color/blue_2f84d0"
+                android:textColor="@color/blue_0188cc"
                 android:textSize="16sp" />
 
             <View
@@ -75,7 +75,7 @@
                 android:layout_weight="1.0"
                 android:gravity="center"
                 android:text="@string/confirm"
-                android:textColor="@color/blue_2f84d0"
+                android:textColor="@color/blue_0188cc"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>

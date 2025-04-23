@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:background="@color/blue_2f84d0"
+        android:background="@color/blue_0188cc"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -38,7 +38,7 @@
             android:textSize="15sp" />
     </RelativeLayout>
 
-    <com.moko.lib.sacnnerui.view.WheelView
+    <com.moko.lib.scannerui.view.WheelView
         android:id="@+id/wv_bottom"
         android:layout_width="0dp"
         android:layout_height="204dp"
@@ -55,7 +55,7 @@
         app:noEmpty="true"
         app:normalTextColor="@color/black_333333"
         app:normalTextSize="15sp"
-        app:selectedTextColor="@color/blue_2f84d0"
+        app:selectedTextColor="@color/blue_0188cc"
         app:selectedTextSize="18sp"
         app:unitHeight="40dp" />
 
@@ -65,7 +65,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="130dp"
         android:layout_marginRight="30dp"
-        android:background="@color/grey_bfbfbf"
+        android:background="@color/grey_b3b3b3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -76,7 +76,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="170dp"
         android:layout_marginRight="30dp"
-        android:background="@color/grey_bfbfbf"
+        android:background="@color/grey_b3b3b3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
