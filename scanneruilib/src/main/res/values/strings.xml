@@ -65,10 +65,6 @@
     <string name="permission_ble_content">%1$s requires access to bluetooth scan contract and location permission. If the permissions are not on, %2$s cannot be used normally.</string>
 
 
-    <string name="version_info">Version:%s</string>
-    <string name="about_moko_name">MOKO TECHNOLOGY LTD.</string>
-    <string name="company_website">www.mokosmart.com</string>
-    <string name="scan_device_total">Total %d pieces of data</string>
     <string name="bxp_t_h"><![CDATA[BXP - T&H]]></string>
     <string name="rssi_filter">*The device will uplink valid ADV data with RSSI no less than %ddBm.</string>
     <string name="filter_adv_name_raw_data"><![CDATA[ADV name&Raw data]]></string>
@@ -89,9 +85,4 @@
     <string name="system_time">System time</string>
     <string name="modify_network_settings">Modify Network Settings</string>
     <string name="reset_device_by_button">Reset device by button</string>
-
-    // net
-    <string name="main_sync_device">Sync Devices</string>
-    <string name="request_error">Request Error!</string>
-    <string name="account_exit">Exit</string>
 </resources>
